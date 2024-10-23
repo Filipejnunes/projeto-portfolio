@@ -9,6 +9,7 @@
 html{
     width: 100vw;
     height: 100vh;
+    
 }
 *{
     margin: 0px;
@@ -28,11 +29,10 @@ h1{
     color: rgb(236, 236, 236);
 }
 main{
-    width: auto;
-    height: auto;
     background: rgba(0, 0, 0, 0.747);
     width: 100vw;
-    height: 100vh;
+    height: 82.5vh;
+    
 
 }
 header{
