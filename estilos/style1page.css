@@ -36,7 +36,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: url(../img/buildings_skyscrapers_bottom_view_black_and_white_sky_reflection_glass_wallpaper_background_4k_hd_dark_background-3840x2160.jpg) no-repeat center center;
-    background-size: auto;
+    background-size: cover;
 }
 ul{
     position: absolute;
