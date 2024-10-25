@@ -1,0 +1,108 @@
+@charset "UTF-8";
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(../img/backgrund2.png) no-repeat center center;
+    background-size: cover;
+}
+li>#s2>p{
+    color: white;
+}
+
+main{
+    margin-top: 5px;
+    max-width: 800px;
+    max-height: 200px;
+    position: absolute;
+    top: 55vh;
+    left: 20%;
+    transform: translate(-20%,-50%);
+    padding: 1px;
+}
+body{
+    box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.63);
+}
+article{
+    width: 300px;
+    max-height: 200px;
+    display: inline-block;
+    margin-left: 10vw;
+    margin-right: 40px;
+    padding: 1px;
+    
+}
+
+#imgem{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    
+
+    
+}
+
+#imge{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: grey url(../img/Screenshot_2024-10-25-20-33-20-854_com.miui.mediaviewer-edit\ \(1\).jpg) center center;
+    background-size: cover;
+    filter: drop-shadow(5px 5px 30px white);
+    
+    
+}
+h1{
+    font-family: "Pacifico";
+}
+
+p{
+    text-align: left;
+}
+
+#linha{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    opacity: 0;
+    height: 0;
+    
+    
+}
+#linha2{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    width: 50px;
+    height: 5px;
+    
+}
+#linha3{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    opacity: 0;
+    height: 0;
+    
+}
+
+#s1:hover #linha {
+    opacity: 1;
+    height: 5px;
+}
+#s2:hover #linha2 {
+    opacity: 0;
+    height: 0;
+}
+#s3:hover #linha3 {
+    opacity: 1;
+    height: 5px;
+}

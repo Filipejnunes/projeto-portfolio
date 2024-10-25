@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    font-family: cursive , Arial, Helvetica, sans-serif;
+}
+
+li>a>p{
+    color: rgba(255, 255, 255, 0.623);
+}
+
+p{
+    margin-right: 10px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.87) ;
+    height: 50px;
+    padding: 30px 0px;
+    display: block;
+    margin-bottom: 50px;
+    width: 100vw;
+    box-shadow:  inset 5px 10px 20px rgba(0, 0, 0, 0.493);
+    position: fixed;
+}
+
+ul{
+    position: absolute;
+    top: 30px;
+    right: 1px;
+}
+li{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate(-50%,50%);
+    
+}
+#Filipe{
+    font-family: "Pacifico";
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate(50%,50%);
+}
+
+a:hover p {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    transform: scale(110%);
+}
