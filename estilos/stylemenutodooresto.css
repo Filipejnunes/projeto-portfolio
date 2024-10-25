@@ -57,3 +57,16 @@ a:hover p {
     color: rgb(255, 255, 255);
     transform: scale(110%);
 }
+#linhaf{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    opacity: 0;
+    height: 0;
+}
+#Filipe:hover #linhaf {
+    opacity: 1;
+    height: 5px;
+}

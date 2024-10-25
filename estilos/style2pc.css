@@ -27,6 +27,10 @@
         
         
     }
+    #imge:hover{
+        transition: 1s;
+        transform: scale(120%);
+    }
     article{
         width: 300px;
         max-height: 200px;
