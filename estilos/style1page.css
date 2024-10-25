@@ -103,10 +103,6 @@ a:hover p {
     opacity: 0;
     height: 0;
 }
-#s2:hover #linha {
-    opacity: 0;
-    height: 0;
-}
 #s2:hover #linha2 {
     opacity: 1;
     height: 5px;
