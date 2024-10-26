@@ -1,0 +1,37 @@
+@media screen and (orientation: landscape) {
+    #massad,#moleculas{
+        min-height: 260px;
+        display: block;
+    }
+    #verde{
+
+        width: 40vw;
+        padding-left: 10px;
+        display: block ;
+        margin: auto;
+        min-height: 260px;
+    }
+    #vermelho{
+        width: 60vw;
+        display: block;
+        margin: auto;
+        min-height: 260px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .pequeno{
+        margin: auto;
+    }
+    .imgm{
+        margin: auto;
+    }
+    .textog{
+        margin-top: 10px;
+    }
+    .h2{
+        padding-left: 10px;
+    }
+    
+    
+    }
+    
