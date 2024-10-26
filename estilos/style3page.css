@@ -106,12 +106,12 @@ h1{
 .h2{
     
     background-color: rgba(196, 196, 196, 0.993);
-    padding-left: 40px;
-    padding-top: 10px;
+    padding: 10px 0px 15px 40px;
     min-height: 60px;
 }
 h2{
-    color: rgb(22, 22, 22);
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px 2px black);
     font-family: cursive;
     vertical-align: middle;
 }
@@ -173,6 +173,7 @@ h3{
     font-family: "PT Serif";
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.692));
     font-weight: lighter;
+    margin-left: 10px;
 }
 #massad,#moleculas{
     min-height: 260px;
@@ -182,6 +183,7 @@ h3{
     background-color: rgb(238, 238, 238);
 }
 .pequeno2{
-    color: rgba(78, 78, 78, 0.836);
-    font-size: small;
+    color: rgba(248, 248, 248, 0.966);
+    font-size: medium;
+    filter: drop-shadow(2px 2px 2px rgb(71, 71, 71));
 }
