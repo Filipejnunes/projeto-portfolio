@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 750px) {
     #massad,#moleculas{
         min-height: 260px;
         display: block;
