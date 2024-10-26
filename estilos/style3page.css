@@ -9,13 +9,62 @@ html{
     width: 100vw;
     overflow-x: hidden;
 }
-
+header{
+    position: relative;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
 #Filipe{
     color: white;
 }
 li>#s3>p{
     color: white;
 }
+
+#linha{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    opacity: 0;
+    height: 0;
+    
+    
+}
+#linha2{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    opacity: 0;
+    height: 0;
+    
+}
+#linha3{
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: opacity 0.5s, height 0.5s;
+    width: 50px;
+    opacity: 1;
+    height: 5px;
+    
+}
+#s1:hover #linha {
+    opacity: 1;
+    height: 5px;
+}
+#s2:hover #linha2 {
+    opacity: 1;
+    height: 5px;
+}
+#s3:hover #linha3 {
+    opacity: 0;
+    height: 0;
+}
+
 
 #backgournd{
     height: 100vh;
@@ -70,25 +119,34 @@ h2{
     min-height: 50px;
     background-color: rgba(196, 196, 196, 0.993);
 }
+.h3w{
+    min-height: 50px;
+    background-color: rgba(255, 253, 253, 0.993);
+}
 h3{
     text-align: center;
     line-height: 50px;
-    color: rgba(255, 255, 255, 0.486);
+    color: rgba(255, 255, 255, 0.664);
+}
+.h3w>h3{
+    color: black;
+    text-decoration: underline;
+    font-family: "PT Serif", serif;
 }
 #verde{
 
-    width: 30vw;
+    width: 40vw;
     padding-left: 10px;
     display: inline-block ;
     display: flex;
     align-items: center;
     justify-content: left;
-    height: 260px;
+    min-height: 260px;
 }
 #vermelho{
     width: 60vw;
     display: inline-block ;
-    height: 260px;
+    min-height: 260px;
     padding-left: 50px;
     padding-right: 20px;
 }
@@ -106,6 +164,7 @@ h3{
     font-size: smaller;
     font-family: "PT Serif";
     filter: drop-shadow(0px 0px 0px black);
+    width: 230px;
 }
 .textog{
     font-size: 20px;
@@ -115,8 +174,12 @@ h3{
     font-weight: lighter;
 }
 #massad,#moleculas{
-    height: 260px;
+    min-height: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.pequeno2{
+    color: rgba(78, 78, 78, 0.836);
+    font-size: small;
 }
