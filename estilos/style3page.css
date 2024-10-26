@@ -50,7 +50,7 @@ h1{
 
 .h2{
     
-    background-color: rgb(117, 117, 117);
+    background-color: rgba(196, 196, 196, 0.993);
     padding-left: 40px;
     padding-top: 10px;
     min-height: 60px;
@@ -62,7 +62,7 @@ h2{
 }
 .h3{
     min-height: 50px;
-    background-color: rgb(161, 161, 161);
+    background-color: rgba(196, 196, 196, 0.993);
 }
 h3{
     text-align: center;
