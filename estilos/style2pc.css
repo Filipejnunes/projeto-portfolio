@@ -15,6 +15,9 @@
     
         
     }
+    main{
+        margin: 0px auto 0px auto;
+    }
     
     #imge{
         width: 150px;

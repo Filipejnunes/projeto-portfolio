@@ -4,9 +4,12 @@ html, body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    
+    overflow: hidden;
     background: url(../img/backgrund2.png) no-repeat center center;
     background-size: cover;
+}
+*{
+    color: rgb(236, 236, 236);
 }
 li>#s2>p{
     color: white;
