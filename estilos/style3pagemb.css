@@ -4,15 +4,15 @@
         display: block;
     }
     #verde{
-
-        width: 40vw;
+        padding-top: 20px;
+        width: 80vw;
         padding-left: 10px;
         display: block ;
         margin: auto;
         min-height: 260px;
     }
     #vermelho{
-        width: 60vw;
+        width: 80vw;
         display: block;
         margin: auto;
         min-height: 260px;
@@ -23,10 +23,8 @@
         margin: auto;
     }
     .imgm{
-        margin: auto;
-    }
-    .textog{
-        margin-top: 10px;
+        margin: -40px auto 20px auto;
+
     }
     .h2{
         padding-left: 10px;
