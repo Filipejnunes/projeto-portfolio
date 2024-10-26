@@ -121,7 +121,7 @@ h2{
 }
 .h3w{
     min-height: 50px;
-    background-color: rgba(255, 253, 253, 0.993);
+    background-image: radial-gradient(rgb(206, 206, 206),rgb(228, 228, 228));
 }
 h3{
     text-align: center;
@@ -132,6 +132,7 @@ h3{
     color: black;
     text-decoration: underline;
     font-family: "PT Serif", serif;
+
 }
 #verde{
 
@@ -156,7 +157,7 @@ h3{
     width:230px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.692));
     display: block;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 10px 0px 10px;
 
 }
 .pequeno{
@@ -178,6 +179,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(238, 238, 238);
 }
 .pequeno2{
     color: rgba(78, 78, 78, 0.836);
