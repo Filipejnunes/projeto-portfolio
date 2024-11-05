@@ -9,9 +9,13 @@ html{
     width: 100vw;
     overflow-x: hidden;
 }
+body{
+    margin-top: -159px;
+}
 header{
-    position: relative;
-    margin-bottom: 0px;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
     background-color: rgba(0, 0, 0, 0.863);
 }
 #Filipe{
@@ -66,11 +70,13 @@ li>#s3>p{
 }
 
 
+
 #backgournd{
     height: 100vh;
     width: 100vw;
     background: url(../img/laboratorio.jpg) center center ;
     background-size: cover;
+    background-attachment: fixed;
     box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.63);
 
 }
@@ -105,47 +111,48 @@ h1{
 
 .h2{
     
-    background-color: rgba(196, 196, 196, 0.993);
+    background-color: rgb(211, 211, 211);
     padding: 10px 0px 15px 40px;
     min-height: 60px;
+    
 }
 h2{
-    color: rgb(255, 255, 255);
-    filter: drop-shadow(2px 2px 2px black);
-    font-family: cursive;
+    color: rgb(73, 73, 73);
+    filter: drop-shadow(2px 2px 2px rgba(255, 255, 255, 0.616));
+    font-family: "Lobster";
+    font-size: 35px;
     vertical-align: middle;
 }
 .h3{
     min-height: 50px;
-    background-color: rgba(196, 196, 196, 0.993);
+    background-color: rgb(211, 211, 211);
 }
 .h3w{
     min-height: 50px;
-    background-image: radial-gradient(rgb(206, 206, 206),rgb(228, 228, 228));
+    background-color:rgb(211, 211, 211);
 }
 h3{
     text-align: center;
     line-height: 50px;
-    color: rgba(255, 255, 255, 0.664);
-}
-.h3w>h3{
-    color: black;
+    color: gray;
     text-decoration: underline;
-    font-family: "PT Serif", serif;
+    font-family: "Pacifico";
+    font-size: 20px;
 
 }
 #verde{
-
-    width: 40vw;
+    width: 50vw;
     padding-left: 10px;
     display: inline-block ;
     display: flex;
     align-items: center;
     justify-content: left;
     min-height: 260px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #vermelho{
-    width: 60vw;
+    width: 50vw;
     display: inline-block ;
     min-height: 260px;
     padding-left: 50px;
@@ -162,16 +169,16 @@ h3{
 }
 .pequeno{
     margin: 0px 0px 0px 40%;
-    font-size: smaller;
-    font-family: "PT Serif";
+    font-size: 15px;
+    font-family: "Caveat";
     filter: drop-shadow(0px 0px 0px black);
     width: 230px;
 }
 .textog{
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.678);
+    color: black;
     font-family: "PT Serif";
-    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.692));
+    filter: drop-shadow(1px 1px 1px rgba(235, 235, 235, 0.692));
     font-weight: lighter;
     margin-left: 10px;
 }

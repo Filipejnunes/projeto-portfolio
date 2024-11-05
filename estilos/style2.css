@@ -14,6 +14,9 @@ html, body {
 li>#s2>p{
     color: white;
 }
+p{
+    filter: drop-shadow(5px 5px 5px black);
+}
 
 main{
     
