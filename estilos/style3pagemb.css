@@ -1,4 +1,7 @@
 @media screen and (max-width: 750px) {
+    html{
+        overflow-x: hidden;
+    }
     #massad,#moleculas{
         min-height: 260px;
         display: flex;
