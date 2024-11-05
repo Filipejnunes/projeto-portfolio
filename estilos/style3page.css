@@ -111,7 +111,7 @@ h1{
 
 .h2{
     
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(233, 233, 233);
     padding: 10px 0px 15px 40px;
     min-height: 60px;
     
@@ -125,11 +125,11 @@ h2{
 }
 .h3{
     min-height: 50px;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(233, 233, 233);
 }
 .h3w{
     min-height: 50px;
-    background-color:rgb(211, 211, 211);
+    background-color:rgb(233, 233, 233);
 }
 h3{
     text-align: center;
@@ -140,13 +140,36 @@ h3{
     font-size: 20px;
 
 }
+#verdediferente{
+    width: 50vw;
+    display: inline-block ;
+    display: flex;
+    min-height: 260px;
+    flex-direction: column;
+    align-items: center;
+}
+#vermelhodiferente{
+    width: 50vw;
+    display: inline-block;
+    display: flex; 
+    min-height: 260px;
+    flex-direction: column;
+    align-items: center;
+}
+#x{
+    margin-bottom: 60px;
+}
+#y{
+    margin-bottom: 60px;
+}
+
 #verde{
     width: 50vw;
     padding-left: 10px;
     display: inline-block ;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     min-height: 260px;
     padding-left: 50px;
     padding-right: 50px;
@@ -158,17 +181,24 @@ h3{
     padding-left: 50px;
     padding-right: 20px;
 }
+.imgmdiferente{
+    margin: 10px auto 10px auto;
+    max-height:300px; 
+    max-width:450px;
+    display: block;
+}
 .imgm{
-    margin: 10px 0px 10px 40%;
+    margin: 10px auto 10px auto;
     height:180px; 
     width:230px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.692));
     display: block;
     border-radius: 0px 10px 0px 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.329);
 
 }
 .pequeno{
-    margin: 0px 0px 0px 40%;
+    margin: 10px auto 0px auto;
     font-size: 15px;
     font-family: "Caveat";
     filter: drop-shadow(0px 0px 0px black);
@@ -180,14 +210,14 @@ h3{
     font-family: "PT Serif";
     filter: drop-shadow(1px 1px 1px rgba(235, 235, 235, 0.692));
     font-weight: lighter;
-    margin-left: 10px;
+    margin: auto;
 }
 #massad,#moleculas{
     min-height: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
 }
 .pequeno2{
     color: rgba(248, 248, 248, 0.966);
