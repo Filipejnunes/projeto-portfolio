@@ -170,6 +170,7 @@ h3{
 }
 
 #verde{
+    background-color: green;
     width: 50vw;
     padding-left: 10px;
     display: inline-block ;
@@ -181,6 +182,7 @@ h3{
     padding-right: 50px;
 }
 #vermelho{
+    background-color: red;
     width: 50vw;
     display: inline-block ;
     min-height: 260px;
