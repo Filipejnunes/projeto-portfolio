@@ -2,6 +2,7 @@
     html{
         width: 100vw;
         height: 100vh;
+        overflow-x: hidden;
     }
     #massad,#moleculas{
         min-height: 260px;
@@ -11,10 +12,8 @@
     }
     .verde{
         padding: 20px 20px 20px 40px;
-        width: 100vw;
+        width: 80vw;
         display: flex;
-        align-items: center;
-    justify-content: center;
         min-height: 100px;
     }
     .vermelho{
