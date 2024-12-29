@@ -1,4 +1,7 @@
 @media screen and (max-width: 750px) {
+    *{
+        overflow-x: hidden;
+    }
     html{
         width: 100vw;
         height: 100vh;
@@ -11,13 +14,15 @@
         align-items: center;
     }
     .verde{
-        padding: 20px 20px 20px 40px;
         width: 80vw;
         display: flex;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
         min-height: 100px;
     }
     .vermelho{
-        width: 100vw;
+        width: 80vw;
         display: flex; 
        flex-direction: column;
        align-items: center;
