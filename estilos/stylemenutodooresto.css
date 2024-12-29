@@ -50,7 +50,7 @@ ul{
     top: 30px;
     right: 1px;
 }
-li{
+#li{
     display: inline-block;
     vertical-align: middle;
     transform: translate(-50%,50%);

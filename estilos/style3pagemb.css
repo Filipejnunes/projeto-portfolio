@@ -1,6 +1,7 @@
 @media screen and (max-width: 750px) {
     html{
-        overflow-x: hidden;
+        width: 100vw;
+        height: 100vh;
     }
     #massad,#moleculas{
         min-height: 260px;
@@ -8,16 +9,16 @@
         flex-direction: column;
         align-items: center;
     }
-    #verde{
-        padding-top: 20px;
-        width: 80vw;
+    .verde{
+        padding: 20px 20px 20px 40px;
+        width: 100vw;
         display: flex;
         align-items: center;
     justify-content: center;
         min-height: 100px;
     }
-    #vermelho{
-        width: 80vw;
+    .vermelho{
+        width: 100vw;
         display: flex; 
        flex-direction: column;
        align-items: center;
