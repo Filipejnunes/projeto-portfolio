@@ -81,7 +81,7 @@ li>#s3>p{
     background: url(../img/laboratorio.jpg) center center ;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.63);
+    box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.651);
 
 }
 #h1p{
@@ -97,7 +97,7 @@ li>#s3>p{
 }
 
 .h1{
-    background-color: rgba(17, 17, 17, 0.836);
+    background-color: rgb(17, 17, 17);
     min-height: 100px;
     display: flex;
     align-items: center;
@@ -138,6 +138,7 @@ h2{
 }
 h3{
     text-align: center;
+    margin-top: 10px;
     line-height: 60px;
     color: gray;
     text-decoration: underline;
@@ -169,15 +170,14 @@ h3{
 }
 
 .verde{
-    background-color: green;
     width: 50vw;
     display: flex;
+    justify-content: center;
     min-height: 10px;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    flex-direction: column;
 }
+ 
 .vermelho{
-    background-color: red;
     width: 50vw;
     display: inline-block ;
     min-height: 280px;
@@ -208,22 +208,27 @@ h3{
     width: 230px;
 }
 .textog{
-    font-size: 20px;
-    color: black;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.863);
     font-family: "PT Serif";
-    filter: drop-shadow(1px 1px 1px rgba(235, 235, 235, 0.692));
+    line-height: 40px;
     font-weight: lighter;
-    margin: auto;
+    margin: 0px 3vw 0px 3vw;
 }
 #massad,#moleculas{
     min-height: 260px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: rgb(255, 255, 255);
 }
 .pequeno2{
-    color: rgba(248, 248, 248, 0.966);
+    color: rgba(151, 151, 151, 0.966);
     font-size: medium;
-    filter: drop-shadow(2px 2px 2px rgb(71, 71, 71));
+}
+.listas{
+    line-height: 30px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.692);
+    font-family: "PT Serif";
+    font-weight: lighter;
+    margin: 15px 3vw 15px 3vw;
 }
