@@ -229,6 +229,7 @@ h3{
 .pequeno2{
     color: rgba(151, 151, 151, 0.966);
     font-size: medium;
+    margin:0px 3vw 0px 3vw ;
 }
 .listas{
     line-height: 30px;
@@ -242,4 +243,14 @@ h3{
 #animação:hover{
     transition: 1s;
     transform: scale(120%);
+}
+#x{
+    height: 25vh;
+    width: 70vw;
+    background: url(../img/Screenshot\ 2024-10-29\ 10.22.34.png) center center ;
+    background-size: cover;
+    box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.226);
+    margin: 50px auto;
+    border-radius: 20px;
+
 }
