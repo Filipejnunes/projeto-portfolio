@@ -5,11 +5,11 @@
     font-weight: 400;
     font-style: italic;
   }
-  *{
-    overflow-x: hidden;
-}
 html{
     width: 100vw;
+    overflow-x: hidden;
+}
+main{
     overflow-x: hidden;
 }
 body{
