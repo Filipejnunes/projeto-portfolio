@@ -43,10 +43,10 @@
         max-width:300px;
         margin-top: 35px;
     }
-    #verdediferente>.imgmdiferente{
+    .verdediferente>.imgmdiferente{
         margin-left: -5px;
     }
-    #vermelhodiferente>.imgmdiferente{
+    .vermelhodiferente>.imgmdiferente{
         margin-left: -5px;
     }
     #x{

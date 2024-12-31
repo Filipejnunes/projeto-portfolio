@@ -147,7 +147,7 @@ h3{
     font-size: 20px;
 
 }
-#verdediferente{
+.verdediferente{
     width: 50vw;
     display: inline-block ;
     display: flex;
@@ -155,7 +155,7 @@ h3{
     flex-direction: column;
     align-items: center;
 }
-#vermelhodiferente{
+.vermelhodiferente{
     width: 50vw;
     display: inline-block;
     display: flex; 
