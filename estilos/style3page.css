@@ -114,20 +114,19 @@ h1{
 
 .h2{
     background-color: rgb(233, 233, 233);
-    padding: 10px 0px 15px 3vw;
+    padding: 10px 0px 15px 0px;
     min-height: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
-.h2>p{
-    margin-top: 10px;
-}
+
 h2{
     color: rgb(73, 73, 73);
     font-family: "Lobster";
     font-size: 35px;
+    margin: 0px 3vw 0px 3vw;
 }
 .h3{
     min-height: 60px;
@@ -175,18 +174,27 @@ h3{
  
 .vermelho{
     width: 50vw;
-    display: inline-block ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
     min-height: 280px;
     padding-left: 3vw;
     padding-right: 3vw;
 }
 .imgesticada{
     margin: 30px auto 30px auto;
-    max-height:400px; 
-    max-width:300px;
+    max-height:350px; 
+    max-width:265px;
     border-radius: 10px 15px 10px 15px;
     display: block;
 
+}
+.imgesticadax{
+    margin: 30px auto 30px auto;
+    height:40vw; 
+    width:60vw;
+    border-radius: 60px;
+    display: block;
 }
 .imgmdiferente{
     margin: 30px auto 30px auto;
@@ -244,13 +252,18 @@ h3{
     transition: 1s;
     transform: scale(120%);
 }
-#x{
-    height: 25vh;
-    width: 70vw;
-    background: url(../img/Screenshot\ 2024-10-29\ 10.22.34.png) center center ;
+#imgf{
+    height: 15vw;
+    width: 65vw;
+    background: url(../img/Screenshot\ 2024-10-29\ 10.22.34.png) center center;
     background-size: cover;
-    box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.226);
+    box-shadow: inset 50000px 5000px 5000px 5000px rgba(0, 0, 0, 0.123);
     margin: 50px auto;
-    border-radius: 20px;
+    border-radius: 10px;
 
+}
+.caixa{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
