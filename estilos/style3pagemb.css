@@ -41,6 +41,7 @@
     .imgmdiferente{
         max-height:200px; 
         max-width:300px;
+        margin-top: 35px;
     }
     #verdediferente>.imgmdiferente{
         margin-left: -5px;
@@ -48,6 +49,15 @@
     #vermelhodiferente>.imgmdiferente{
         margin-left: -5px;
     }
+    #x{
+        display: block;
+        width:fit-content ;
+        height: 99px;
+        background-color: rgba(128, 128, 128, 0.425);
+        margin-bottom: 30px;
+    }
+    
+
     
     
     }
