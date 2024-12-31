@@ -38,6 +38,16 @@
     .h2{
         padding-left: 10px;
     }
+    .imgmdiferente{
+        max-height:200px; 
+        max-width:300px;
+    }
+    #verdediferente>.imgmdiferente{
+        margin-left: -5px;
+    }
+    #vermelhodiferente>.imgmdiferente{
+        margin-left: -5px;
+    }
     
     
     }
